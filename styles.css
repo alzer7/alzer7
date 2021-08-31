@@ -1,0 +1,23 @@
+div.title {
+    font-size: 32px;
+    font-family: Arial, serif;
+}
+
+textarea {
+    display: block;
+}
+
+button {
+    margin-top: 4px;
+    background-color: lightsalmon;
+    border: none;
+    padding: 4px 8px;
+}
+
+button:hover {
+    background-color: #ff7032;
+}
+
+button:active {
+    background-color: #ff4b00;
+}
