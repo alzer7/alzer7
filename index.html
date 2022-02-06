@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
 <div class="title">Case Converter</div>
-<label for="idOfText"></label>
-<textarea name="nameOfText" id="idOfText" rows="15" cols="70"></textarea>
+<div>
+    <label for="idOfText"></label>
+    <textarea name="nameOfText" id="idOfText"
+              rows="20" cols="80"
+              placeholder="Fill the area"
+              autofocus
+    ></textarea>
+</div>
 <div id="buttons">
     <button id="upper-case" onclick="toUpper()">Upper Case</button>
     <button id="lower-case" onclick="toLower()">Lower Case</button>
