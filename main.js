@@ -1,19 +1,19 @@
-const toUpper = () => {
+function toUpper() {
     let matn = document.getElementById("idOfText").value;
     document.getElementById("idOfText").value = matn.toUpperCase();
 }
-const toLower = () => {
+function toLower() {
     let matn = document.getElementById("idOfText").value;
     document.getElementById("idOfText").value = matn.toLowerCase();
 }
-const toProper = () => {
+function toProper() {
     let matn = document.getElementById("idOfText").value;
     document.getElementById("idOfText").value =
         matn.replace(/(\w)(\w*)/g, (match, g1, g2) => {
             return g1.toUpperCase() + g2.toLowerCase();
         })
 }
-const toSentence = () => {
+function toSentence() {
     let matn = document.getElementById("idOfText").value;
     matn = matn.toLowerCase();
     document.getElementById('idOfText').value = matn.replace(
