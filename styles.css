@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
+    padding: 0 1rem;
 }
 
 .title {
@@ -22,6 +23,7 @@ body {
 
 textarea {
     width: 40rem;
+    max-width: calc(100vw - 2rem);
     height: 25rem;
     resize: vertical;
     padding: 6px;
@@ -33,7 +35,7 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem .5rem;
-    max-width: 40rem;
+    max-width: calc(100vw - 2rem);
 }
 
 button {
