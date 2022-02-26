@@ -16,9 +16,9 @@ const toProper = () => {
 const toSentence = () => {
     let matn = document.getElementById("idOfText").value;
     matn = matn.toLowerCase();
-    document.getElementById('idOfText').value =
-        matn.replace(/([\n.] ?)(\w)/g, (match, g1, g2) => {
-            return g1 + g2.toUpperCase();
+    document.getElementById('idOfText').value = matn.replace(
+        /([a-z])([^.!?]+)/g, (match, g1, g2) => {
+            return g1.toUpperCase() + g2;
         });
 }
 

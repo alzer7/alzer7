@@ -21,14 +21,19 @@ body {
 }
 
 textarea {
-    resize: none;
+    width: 40rem;
+    height: 25rem;
+    resize: vertical;
     padding: 6px;
     border-radius: 4px;
+    font-size: 1rem;
 }
 
 #buttons {
     display: flex;
-    column-gap: .5rem;
+    flex-wrap: wrap;
+    gap: 1rem .5rem;
+    max-width: 40rem;
 }
 
 button {
